@@ -1,0 +1,99 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #163152;
+    background-color: #fdfdff;
+}
+
+/* Стили для мобильной версии */
+@media (max-width: 400px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: initial;
+        margin-bottom: 10px;
+    }
+
+    .main-nav {
+        justify-content: center;
+    }
+
+    .site-navigation {
+        margin-right: initial;
+        justify-content: center;
+    }
+
+    .site-navigation-item {
+        margin-right: 10px;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .blog-article {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .blog-article-content {
+        margin-right: initial;
+    }
+
+    .blog-article-img {
+        width: 100%;
+        height: auto;
+        margin-right: initial;
+        margin-bottom: 20px;
+    }
+
+    .blog-article-2 {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .blog-article-2 .blog-article-content {
+        margin-right: initial;
+        text-align: center;
+    }
+
+    .cards {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .main-footer {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer-container {
+        padding: 0 20px;
+    }
+
+    .footer-navigation-topics {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-navigation-topic {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-navigation-topic h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
